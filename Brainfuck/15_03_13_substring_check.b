@@ -14,7 +14,7 @@ Memory Layout:
    00: line counter
 01_10: string A
 11_15: string B
-16_21: hash(substring A) minus has(string B)
+16_21: hash(substring A) minus hash(string B)
 
 #0 [-]+++++ +++++ +++++ +++++ ++++  Set line counter
 #0 [
@@ -39,7 +39,7 @@ Memory Layout:
   #9 [- >>>>> >>>>> > + > ++ <<<<< <<<<< <<] >
   #10 [- >>>>> >>>>> > + <<<<< <<<<< <] >
 
-  Subtract has of string B from hash of substrings of A
+  Subtract hash of string B from hash of substrings of A
   #11 [- >>>>> ----- ----- ----- - > ----- ----- ----- - > ----- ----- ----- -
              > ----- ----- ----- - > ----- ----- ----- - > ----- ----- ----- - <<<<< <<<<<] >
   #12 [- >>>> ----- --- > ----- --- > ----- --- > ----- --- > ----- --- > ----- --- <<<<< <<<<] >
