@@ -47,7 +47,7 @@ Memory Layout:
   #14 [- >> -- > -- > -- > -- > -- > -- <<<<< <<] >
   #15 [- > - > - > - > - > - > - <<<<< <] >
 
-  Check if result of hash subtraction is zero of any of six substrings
+  Check if result of hash-subtraction is zero for any of the six substrings
   #16 <<[-]                     Cell is set to 1 when a match is found
   #14 >[-]                      Cell in set to 0 when a match is unsuccessful
   #15 + >[[-]<->] <[-<[-]+>]                      Check substring 1
